@@ -3,6 +3,11 @@ function takeANumber(katzDeliLine, newName) {
   var num = katzDeliLine.length 
   return `Welcome, ${newName}. You are number ${num} in line.` 
 }
+function giveANumber (katzDeliLine) {
+  var counter = 0
+  counter ++;
+  katzDeliLine.push(counter);
+}
 
 function nowServing(katzDeliLine) {
   var length = katzDeliLine.length
